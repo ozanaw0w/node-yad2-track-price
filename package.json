@@ -1,0 +1,25 @@
+{
+  "name": "yad2-track-price",
+  "version": "1.0.0",
+  "description": "An automation tool to track yad2 prices",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "selenium",
+    "js",
+    "yad2",
+    "automation"
+  ],
+  "author": "Dor Ozana",
+  "license": "MIT",
+  "dependencies": {
+    "chromedriver": "^114.0.2",
+    "dotenv": "^16.3.1",
+    "mongoose": "^7.3.4",
+    "nodemailer": "^6.9.3",
+    "selenium-webdriver": "^4.10.0"
+  }
+}
