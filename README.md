@@ -7,7 +7,11 @@ This project aims to develop an automated system for studying the process of pri
 - Email 
 
 ## Install
-```npm install```
+```
+git clone git@github.com:ozanaw0w/node-yad2-track-price.git
+cd node-yad2-track-price
+npm install
+```
 
 ## Setup
 Set these environment variables in a .env file located in the project's root directory. Make sure to replace the placeholder values with your actual email address, desired interval value, and MongoDB connection URI.
