@@ -5,7 +5,7 @@ const Database = require('./db')
 const db = new Database()
 const mail = new Mail()
 const auto = new Automation()
-const url = 'https://www.yad2.co.il/item/vmwkxft2?utm_campaign=m-ToAd&utm_source=clipboard&utm_content=Nadlan&openedFrom=share'
+const url = ''
 
 // Run the script
 async function main() {

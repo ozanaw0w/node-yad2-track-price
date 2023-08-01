@@ -1,4 +1,3 @@
-// Set up the automation driver
 const { By, Key, Builder, until } = require("selenium-webdriver");
 require("chromedriver")
 const driver = new Builder().forBrowser('chrome').build();

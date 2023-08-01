@@ -1,4 +1,3 @@
-// Set up the mail driver
 const nodemailer = require('nodemailer');
 const transporter = nodemailer.createTransport({
     service: process.env.EMAIL_SERVICE,
